@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# 中文会话练习 | Chinese Conversation Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The Problem
 
-Currently, two official plugins are available:
+There are **no apps** that help learners practice conversational Chinese with **real-world examples tailored to product managers**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Most Chinese learning tools focus on:
 
-## React Compiler
+- Textbook phrases (ordering at restaurants, asking for directions)
+- Reading and writing (characters, grammar drills)
+- Generic business vocabulary
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+If you're a PM working with designers, engineers, and stakeholders in Chinese-speaking teams, you need to practice **actual work conversations**: sprint planning, design reviews, scope negotiation, bug triage, API discussions, deployment coordination, and more. You need the vocabulary and phrases that come up in meetings—technical terms like API, schema, CI/CD, rollback—not just "你好" and "谢谢".
 
-## Expanding the ESLint configuration
+This app fills that gap.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## What This App Does
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A voice-first web app for practicing conversational Chinese with scripted, realistic dialogues:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Work scenarios** — Sprint planning, design review, scope negotiation, bug triage, requirements clarification, status updates, technical feasibility, timeline pushback, cross-team alignment, API integration, database migration, frontend performance, deployment, code review, monitoring alerts
+- **Everyday scenarios** — Greetings, ordering food/drinks, asking directions, making plans
+- **Technical vocabulary** — RESTful, JSON, Swagger, schema, rollback, CI/CD, Jenkins, staging, 金丝雀 (canary), Grafana, Sentry, Redis, TTL, and more
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**How it works:** Listen to the partner's line (text-to-speech), type your response in Chinese, compare with suggested replies, then advance. Track your streak and practice daily.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open http://localhost:5173
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Build
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
+npm run preview
 ```
+
+## Tech Stack
+
+- React + Vite + TypeScript
+- Tailwind CSS
+- Web Speech API (TTS for partner lines)
+- localStorage for progress and streaks
