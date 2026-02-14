@@ -1,0 +1,34 @@
+{
+  "id": "database-migration",
+  "title": "数据库迁移计划",
+  "category": "work",
+  "situation": "Planning a database migration. You need to discuss downtime and rollback strategy.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "这次迁移要改schema，可能涉及主从切换。",
+      "pinyin": "Zhè cì qiānyí yào gǎi schema, kěnéng shèjí zhǔ cóng qiēhuàn.",
+      "translation": "This migration changes the schema, might involve master-replica failover."
+    },
+    {
+      "speaker": "user",
+      "text": "预计要停服多久？我们需要提前通知用户。",
+      "pinyin": "Yùjì yào tíng fú duōjiǔ? Wǒmen xūyào tíqián tōngzhī yònghù.",
+      "translation": "How long is the expected downtime? We need to notify users in advance.",
+      "suggestions": ["预计要停服多久？我们需要提前通知用户。", "downtime大概多长？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "正常情况下十五到二十分钟，我们有rollback方案。",
+      "pinyin": "Zhèngcháng qíngkuàng xià shíwǔ dào èrshí fēnzhōng, wǒmen yǒu rollback fāng'àn.",
+      "translation": "Normally 15–20 minutes. We have a rollback plan."
+    },
+    {
+      "speaker": "user",
+      "text": "那定在凌晨三点吧，流量最低。我这边准备公告和告警。",
+      "pinyin": "Nà dìng zài língchén sān diǎn ba, liúliàng zuì dī. Wǒ zhè biān zhǔnbèi gōnggào hé gàojǐng.",
+      "translation": "Let's schedule for 3am then, lowest traffic. I'll prepare the announcement and alerts.",
+      "suggestions": ["那定在凌晨三点吧，流量最低。我这边准备公告和告警。", "凌晨做吧，流量小。"]
+    }
+  ]
+}

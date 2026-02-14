@@ -1,0 +1,34 @@
+{
+  "id": "tech-feasibility",
+  "title": "和工程师讨论技术可行性",
+  "category": "work",
+  "situation": "Engineer says the current architecture can't support a feature. You ask for a workaround.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "这个用现有架构实现不了。",
+      "pinyin": "Zhège yòng xiànyǒu jiàgòu shíxiàn bù liǎo.",
+      "translation": "This can't be implemented with the current architecture."
+    },
+    {
+      "speaker": "user",
+      "text": "有没有折中方案？我们可以先做一个简化版。",
+      "pinyin": "Yǒu méiyǒu zhézhōng fāng'àn? Wǒmen kěyǐ xiān zuò yī ge jiǎnhuà bǎn.",
+      "translation": "Is there a workaround? We could do a simplified version first.",
+      "suggestions": ["有没有折中方案？我们可以先做一个简化版。", "能先做一个MVP吗？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "简化版的话，可能达不到你们要的效果。",
+      "pinyin": "Jiǎnhuà bǎn de huà, kěnéng dá bù dào nǐmen yào de xiàoguǒ.",
+      "translation": "A simplified version might not meet your expectations."
+    },
+    {
+      "speaker": "user",
+      "text": "先验证一下用户需求，再决定要不要做大版本。",
+      "pinyin": "Xiān yànzhèng yīxià yònghù xūqiú, zài juédìng yào bu yào zuò dà bǎnběn.",
+      "translation": "Let's validate user needs first, then decide whether to build the full version.",
+      "suggestions": ["先验证一下用户需求，再决定要不要做大版本。", "先小范围试试，再考虑完整版。"]
+    }
+  ]
+}

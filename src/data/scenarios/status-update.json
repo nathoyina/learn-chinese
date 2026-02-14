@@ -1,0 +1,34 @@
+{
+  "id": "status-update",
+  "title": "站会同步进度",
+  "category": "work",
+  "situation": "Daily standup. Your manager asks about your progress.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "你这边进度怎么样？",
+      "pinyin": "Nǐ zhè biān jìndù zěnme yàng?",
+      "translation": "How's your progress?"
+    },
+    {
+      "speaker": "user",
+      "text": "设计稿已经评审完了，等开发排期。",
+      "pinyin": "Shèjì gǎo yǐjīng píngshěn wán le, děng kāifā páiqī.",
+      "translation": "Design review is done, waiting for dev to schedule.",
+      "suggestions": ["设计稿已经评审完了，等开发排期。", "设计过了，等研发排期。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "开发预计什么时候能开始？",
+      "pinyin": "Kāifā yùjì shénme shíhou néng kāishǐ?",
+      "translation": "When does dev expect to start?"
+    },
+    {
+      "speaker": "user",
+      "text": "这週五能排进来，下週一开始开发。",
+      "pinyin": "Zhè zhōuwǔ néng pái jìnlái, xià zhōuyī kāishǐ kāifā.",
+      "translation": "Should be scheduled this Friday, development starts next Monday.",
+      "suggestions": ["这週五能排进来，下週一开始开发。", "週五排期，下週一开搞。"]
+    }
+  ]
+}

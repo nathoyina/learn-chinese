@@ -1,0 +1,34 @@
+{
+  "id": "frontend-performance",
+  "title": "前端性能优化",
+  "category": "work",
+  "situation": "Discussing frontend performance. The page load is slow; you're considering lazy loading and caching.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "首屏加载时间超过三秒，LCP和FCP都不达标。",
+      "pinyin": "Shǒu píng jiāzài shíjiān chāoguò sān miǎo, LCP hé FCP dōu bù dá biāo.",
+      "translation": "First-screen load is over 3 seconds, LCP and FCP are below target."
+    },
+    {
+      "speaker": "user",
+      "text": "可以考虑代码分割和懒加载，把非首屏的chunk拆出去。",
+      "pinyin": "Kěyǐ kǎolǜ dàimǎ fēngē hé lǎn jiāzài, bǎ fēi shǒu píng de chunk chāi chūqù.",
+      "translation": "We could do code splitting and lazy loading, split off non-critical chunks.",
+      "suggestions": ["可以考虑代码分割和懒加载，把非首屏的chunk拆出去。", "做code splitting和lazy load。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "接口请求也要优化，很多重复调用。",
+      "pinyin": "Jiēkǒu qǐngqiú yě yào yōuhuà, hěn duō chóngfù diàoyòng.",
+      "translation": "API calls need optimization too, lots of duplicate requests."
+    },
+    {
+      "speaker": "user",
+      "text": "加一层cache吧，Redis或者内存缓存，设置合理的TTL。",
+      "pinyin": "Jiā yī céng cache ba, Redis huòzhě nèicún huǎncún, shèzhì hélǐ de TTL.",
+      "translation": "Add a cache layer, Redis or in-memory, with a reasonable TTL.",
+      "suggestions": ["加一层cache吧，Redis或者内存缓存，设置合理的TTL。", "做请求缓存，设个TTL。"]
+    }
+  ]
+}

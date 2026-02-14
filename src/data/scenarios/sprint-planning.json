@@ -1,0 +1,34 @@
+{
+  "id": "sprint-planning",
+  "title": "跟工程师讨论优先级",
+  "category": "work",
+  "situation": "Sprint planning with engineers. Discussing if a feature can be done in two weeks.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "这个需求两週能做完吗？",
+      "pinyin": "Zhège xūqiú liǎng zhōu néng zuò wán ma?",
+      "translation": "Can we finish this requirement in two weeks?"
+    },
+    {
+      "speaker": "user",
+      "text": "可以，但我们需要先确认技术方案。",
+      "pinyin": "Kěyǐ, dàn wǒmen xūyào xiān quèrèn jìshù fāng'àn.",
+      "translation": "Yes, but we need to confirm the technical approach first.",
+      "suggestions": ["可以，但我们需要先确认技术方案。", "能做，但要先过一下技术方案。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "技术方案週二能出来吗？",
+      "pinyin": "Jìshù fāng'àn zhōu'èr néng chūlái ma?",
+      "translation": "Can the technical design be ready by Tuesday?"
+    },
+    {
+      "speaker": "user",
+      "text": "週二下午可以给初版，我们週三一起过。",
+      "pinyin": "Zhōu'èr xiàwǔ kěyǐ gěi chū bǎn, wǒmen zhōusān yīqǐ guò.",
+      "translation": "We can have a first draft Tuesday afternoon, let's review together Wednesday.",
+      "suggestions": ["週二下午可以给初版，我们週三一起过。", "週二能给初版，週三过一下。"]
+    }
+  ]
+}

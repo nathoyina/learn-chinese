@@ -1,0 +1,34 @@
+{
+  "id": "code-review",
+  "title": "代码评审反馈",
+  "category": "work",
+  "situation": "Giving feedback in a code review. The PR has some issues with error handling and types.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "你看一下这个PR，有问题直接comment。",
+      "pinyin": "Nǐ kàn yīxià zhège PR, yǒu wèntí zhíjiē comment.",
+      "translation": "Take a look at this PR, comment directly if you see issues."
+    },
+    {
+      "speaker": "user",
+      "text": "这个函数没有处理异常，建议加try-catch，并且把错误日志打到Sentry。",
+      "pinyin": "Zhège hánshù méiyǒu chǔlǐ yìcháng, jiànyì jiā try-catch, bìngqiě bǎ cuòwù rìzhì dǎ dào Sentry.",
+      "translation": "This function doesn't handle exceptions — suggest adding try-catch and logging errors to Sentry.",
+      "suggestions": ["这个函数没有处理异常，建议加try-catch，并且把错误日志打到Sentry。", "建议加error handling和Sentry。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "类型定义这块你看有问题吗？",
+      "pinyin": "Lèixíng dìngyì zhè kuài nǐ kàn yǒu wèntí ma?",
+      "translation": "Any issues with the type definitions?"
+    },
+    {
+      "speaker": "user",
+      "text": "有几个any可以改成泛型，TypeScript会推断得更准确。",
+      "pinyin": "Yǒu jǐ ge any kěyǐ gǎi chéng fànxíng, TypeScript huì tuīduàn dé gèng zhǔnquè.",
+      "translation": "A few `any`s could be replaced with generics for better TypeScript inference.",
+      "suggestions": ["有几个any可以改成泛型，TypeScript会推断得更准确。", "把any换成泛型比较好。"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "order-tea",
+  "title": "奶茶店点单",
+  "category": "everyday",
+  "situation": "You're at a bubble tea shop. Order your drink.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "您好，请问要喝什么？",
+      "pinyin": "Nín hǎo, qǐngwèn yào hē shénme?",
+      "translation": "Hello, what would you like to drink?"
+    },
+    {
+      "speaker": "user",
+      "text": "我要一杯珍珠奶茶，少冰。",
+      "pinyin": "Wǒ yào yī bēi zhēnzhū nǎichá, shǎo bīng.",
+      "translation": "I'd like a pearl milk tea, less ice.",
+      "suggestions": ["我要一杯珍珠奶茶，少冰。", "珍珠奶茶，少冰，谢谢。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "好的，糖度呢？正常糖还是少糖？",
+      "pinyin": "Hǎo de, tángdù ne? Zhèngcháng táng háishì shǎo táng?",
+      "translation": "Sure, sugar level? Regular or less sugar?"
+    },
+    {
+      "speaker": "user",
+      "text": "少糖吧，谢谢。",
+      "pinyin": "Shǎo táng ba, xièxiè.",
+      "translation": "Less sugar, thanks.",
+      "suggestions": ["少糖吧，谢谢。", "少糖就好。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "好的，一共二十五块。",
+      "pinyin": "Hǎo de, yīgòng èrshíwǔ kuài.",
+      "translation": "That'll be twenty-five yuan."
+    }
+  ]
+}

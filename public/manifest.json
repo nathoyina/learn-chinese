@@ -1,0 +1,17 @@
+{
+  "name": "中文会话练习",
+  "short_name": "中文练习",
+  "description": "Practice conversational Chinese with voice. Listen, speak, improve.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#059669",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

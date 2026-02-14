@@ -1,0 +1,34 @@
+{
+  "id": "api-integration",
+  "title": "API对接讨论",
+  "category": "work",
+  "situation": "Discussing API integration with the backend team. You need to align on request format and error handling.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "我们的API用的是RESTful，返回格式是JSON。",
+      "pinyin": "Wǒmen de API yòng de shì RESTful, fǎnhuí géshì shì JSON.",
+      "translation": "Our API uses RESTful, response format is JSON."
+    },
+    {
+      "speaker": "user",
+      "text": "好的，有接口文档吗？Swagger或者OpenAPI都可以。",
+      "pinyin": "Hǎo de, yǒu jiēkǒu wéndàng ma? Swagger huòzhě OpenAPI dōu kěyǐ.",
+      "translation": "Got it. Do you have API docs? Swagger or OpenAPI is fine.",
+      "suggestions": ["好的，有接口文档吗？Swagger或者OpenAPI都可以。", "有没有API文档？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "有的，文档里有每个endpoint的请求参数和响应结构。",
+      "pinyin": "Yǒu de, wéndàng lǐ yǒu měi ge endpoint de qǐngqiú cānshù hé xiǎngyìng jiégòu.",
+      "translation": "Yes, the doc has request params and response structure for each endpoint."
+    },
+    {
+      "speaker": "user",
+      "text": "错误码呢？比如401、500这些，我们前端要统一处理。",
+      "pinyin": "Cuòwù mǎ ne? Bǐrú 401、500 zhèxiē, wǒmen qiánduān yào tǒngyī chǔlǐ.",
+      "translation": "What about error codes? Like 401, 500 — we need to handle them consistently on the frontend.",
+      "suggestions": ["错误码呢？比如401、500这些，我们前端要统一处理。", "HTTP状态码和错误信息有定义吗？"]
+    }
+  ]
+}

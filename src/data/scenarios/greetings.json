@@ -1,0 +1,34 @@
+{
+  "id": "greetings",
+  "title": "打招呼和闲聊",
+  "category": "everyday",
+  "situation": "You run into a colleague at the office. You want to greet them and make small talk.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "你好！最近怎么样？",
+      "pinyin": "Nǐ hǎo! Zuìjìn zěnme yàng?",
+      "translation": "Hi! How have you been lately?"
+    },
+    {
+      "speaker": "user",
+      "text": "挺好的，你呢？",
+      "pinyin": "Tǐng hǎo de, nǐ ne?",
+      "translation": "Pretty good, and you?",
+      "suggestions": ["挺好的，你呢？", "还不错，你怎么样？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "我也很好，谢谢。今天忙吗？",
+      "pinyin": "Wǒ yě hěn hǎo, xièxiè. Jīntiān máng ma?",
+      "translation": "I'm good too, thanks. Busy today?"
+    },
+    {
+      "speaker": "user",
+      "text": "还好，有几个会要开。",
+      "pinyin": "Hái hǎo, yǒu jǐ ge huì yào kāi.",
+      "translation": "Not too bad, have a few meetings.",
+      "suggestions": ["还好，有几个会要开。", "一般般，下午有个会。"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "monitoring-alerts",
+  "title": "监控告警处理",
+  "category": "work",
+  "situation": "A monitoring alert fired. You're discussing whether it's a real incident or a false positive.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "刚收到告警，CPU使用率超过百分之九十，持续了两分钟。",
+      "pinyin": "Gāng shōudào gàojǐng, CPU shǐyòng lǜ chāoguò bǎi fēn zhī jiǔshí, chíxù le liǎng fēnzhōng.",
+      "translation": "Just got an alert — CPU usage over 90% for two minutes."
+    },
+    {
+      "speaker": "user",
+      "text": "查一下是不是有慢查询，或者某个job跑爆了。",
+      "pinyin": "Chá yīxià shì bu shì yǒu màn cháxún, huòzhě mǒu ge job pǎo bào le.",
+      "translation": "Check if there are slow queries or if some job went haywire.",
+      "suggestions": ["查一下是不是有慢查询，或者某个job跑爆了。", "看一下慢查询和定时任务。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "Grafana上看，是数据库连接池满了。",
+      "pinyin": "Grafana shàng kàn, shì shùjùkù liánjiē chí mǎn le.",
+      "translation": "From Grafana, it looks like the DB connection pool is exhausted."
+    },
+    {
+      "speaker": "user",
+      "text": "可能是连接泄漏，先扩容连接池顶一下，同时排查没有正确close的连接。",
+      "pinyin": "Kěnéng shì liánjiē xièlòu, xiān kuò róng liánjiē chí dǐng yīxià, tóngshí páichá méiyǒu zhèngquè close de liánjiē.",
+      "translation": "Could be a connection leak. Temporarily increase pool size, and hunt for connections that aren't properly closed.",
+      "suggestions": ["可能是连接泄漏，先扩容连接池顶一下，同时排查没有正确close的连接。", "先扩容，再查连接泄漏。"]
+    }
+  ]
+}

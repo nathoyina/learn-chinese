@@ -1,0 +1,34 @@
+{
+  "id": "scope-negotiation",
+  "title": "和业务方沟通砍需求",
+  "category": "work",
+  "situation": "A stakeholder wants to launch next week. You need to push back and suggest a phased approach.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "老板希望下週就上线。",
+      "pinyin": "Lǎobǎn xīwàng xià zhōu jiù shàngxiàn.",
+      "translation": "The boss wants to launch next week."
+    },
+    {
+      "speaker": "user",
+      "text": "时间太紧了，我们可以分两期做，先上核心功能。",
+      "pinyin": "Shíjiān tài jǐn le, wǒmen kěyǐ fēn liǎng qī zuò, xiān shàng héxīn gōngnéng.",
+      "translation": "The timeline is too tight. We can do it in two phases, launch core features first.",
+      "suggestions": ["时间太紧了，我们可以分两期做，先上核心功能。", "来不及，建议分两期，先上最重要的部分。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "核心功能具体指哪些？",
+      "pinyin": "Héxīn gōngnéng jùtǐ zhǐ nǎxiē?",
+      "translation": "What exactly are the core features?"
+    },
+    {
+      "speaker": "user",
+      "text": "我列一份清单，明天发给你确认。",
+      "pinyin": "Wǒ liè yī fèn qīngdān, míngtiān fā gěi nǐ quèrèn.",
+      "translation": "I'll put together a list and send it to you tomorrow for confirmation.",
+      "suggestions": ["我列一份清单，明天发给你确认。", "我整理一下，明天给你发清单。"]
+    }
+  ]
+}

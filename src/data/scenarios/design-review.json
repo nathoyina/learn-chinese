@@ -1,0 +1,34 @@
+{
+  "id": "design-review",
+  "title": "和设计师过稿",
+  "category": "work",
+  "situation": "You're reviewing a new checkout flow with your designer. They're showing the latest mockups.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "这是最新的设计稿，你看一下。",
+      "pinyin": "Zhè shì zuìxīn de shèjì gǎo, nǐ kàn yīxià.",
+      "translation": "Here's the latest design, take a look."
+    },
+    {
+      "speaker": "user",
+      "text": "整体不错，但我建议把表单步骤减少到三步。",
+      "pinyin": "Zhěngtǐ bùcuò, dàn wǒ jiànyì bǎ biǎodān bùzhòu jiǎnshǎo dào sān bù.",
+      "translation": "Overall it looks good, but I suggest reducing the form steps to three.",
+      "suggestions": ["整体不错，但我建议把表单减少到三步。", "我觉得可以，但步骤能不能少一点？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "好的，我们改一版，明天发给你。",
+      "pinyin": "Hǎo de, wǒmen gǎi yī bǎn, míngtiān fā gěi nǐ.",
+      "translation": "Sure, we'll revise it and send it to you tomorrow."
+    },
+    {
+      "speaker": "user",
+      "text": "行，那我们週五再对一下。",
+      "pinyin": "Xíng, nà wǒmen zhōuwǔ zài duì yīxià.",
+      "translation": "Sounds good, let's sync again on Friday.",
+      "suggestions": ["行，那我们週五再对一下。", "好的，週五再约时间过一遍。"]
+    }
+  ]
+}

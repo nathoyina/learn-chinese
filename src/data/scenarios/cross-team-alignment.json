@@ -1,0 +1,34 @@
+{
+  "id": "cross-team-alignment",
+  "title": "跨团队对需求",
+  "category": "work",
+  "situation": "Another team says their system conflicts with your requirements. You propose a sync meeting.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "你们的需求跟我们系统有冲突。",
+      "pinyin": "Nǐmen de xūqiú gēn wǒmen xìtǒng yǒu chōngtú.",
+      "translation": "Your requirements conflict with our system."
+    },
+    {
+      "speaker": "user",
+      "text": "那我们约个会，一起对齐一下方案。",
+      "pinyin": "Nà wǒmen yuē ge huì, yīqǐ duìqí yīxià fāng'àn.",
+      "translation": "Let's set up a meeting to align on the approach.",
+      "suggestions": ["那我们约个会，一起对齐一下方案。", "约个会吧，当面对齐一下。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "你们那边谁参加？",
+      "pinyin": "Nǐmen nà biān shuí cānjiā?",
+      "translation": "Who will join from your side?"
+    },
+    {
+      "speaker": "user",
+      "text": "我和技术负责人，加上产品一起。",
+      "pinyin": "Wǒ hé jìshù fùzérén, jiā shàng chǎnpǐn yīqǐ.",
+      "translation": "Me, the tech lead, and product.",
+      "suggestions": ["我和技术负责人，加上产品一起。", "我、tech lead、再加一个PM。"]
+    }
+  ]
+}

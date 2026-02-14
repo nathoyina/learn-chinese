@@ -1,0 +1,34 @@
+{
+  "id": "making-plans",
+  "title": "和朋友约时间",
+  "category": "everyday",
+  "situation": "You're making plans with a friend to meet up this weekend.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "週末有空吗？一起吃饭吧。",
+      "pinyin": "Zhōumò yǒu kòng ma? Yīqǐ chīfàn ba.",
+      "translation": "Are you free this weekend? Let's get food together."
+    },
+    {
+      "speaker": "user",
+      "text": "好啊，週六还是週日？",
+      "pinyin": "Hǎo a, zhōuliù háishì zhōurì?",
+      "translation": "Sure, Saturday or Sunday?",
+      "suggestions": ["好啊，週六还是週日？", "行，週六週日都行。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "週六吧，中午怎么样？",
+      "pinyin": "Zhōuliù ba, zhōngwǔ zěnme yàng?",
+      "translation": "Saturday. How about lunch?"
+    },
+    {
+      "speaker": "user",
+      "text": "可以，十二点在哪见？",
+      "pinyin": "Kěyǐ, shí'èr diǎn zài nǎ jiàn?",
+      "translation": "Sure, where should we meet at noon?",
+      "suggestions": ["可以，十二点在哪见？", "好，十二点哪里见？"]
+    }
+  ]
+}

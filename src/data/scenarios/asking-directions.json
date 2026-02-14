@@ -1,0 +1,34 @@
+{
+  "id": "asking-directions",
+  "title": "问路",
+  "category": "everyday",
+  "situation": "You're lost and need to ask for directions to the subway station.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "有什么事吗？",
+      "pinyin": "Yǒu shénme shì ma?",
+      "translation": "Can I help you?"
+    },
+    {
+      "speaker": "user",
+      "text": "请问地铁站在哪里？",
+      "pinyin": "Qǐngwèn dìtiě zhàn zài nǎlǐ?",
+      "translation": "Excuse me, where is the subway station?",
+      "suggestions": ["请问地铁站在哪里？", "地铁站怎么走？"]
+    },
+    {
+      "speaker": "partner",
+      "text": "往前走，到路口左拐，大概五分钟。",
+      "pinyin": "Wǎng qián zǒu, dào lùkǒu zuǒ guǎi, dàgài wǔ fēnzhōng.",
+      "translation": "Go straight, turn left at the intersection, about five minutes."
+    },
+    {
+      "speaker": "user",
+      "text": "谢谢您！",
+      "pinyin": "Xièxiè nín!",
+      "translation": "Thank you!",
+      "suggestions": ["谢谢您！", "多谢！"]
+    }
+  ]
+}

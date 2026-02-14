@@ -1,0 +1,34 @@
+{
+  "id": "requirements-clarify",
+  "title": "澄清产品需求",
+  "category": "work",
+  "situation": "An engineer asks how a feature should work. You'll write a PRD and share for review.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "这个功能具体要怎么做？",
+      "pinyin": "Zhège gōngnéng jùtǐ yào zěnme zuò?",
+      "translation": "How exactly should this feature work?"
+    },
+    {
+      "speaker": "user",
+      "text": "我先写一份PRD，週五前发给大家评审。",
+      "pinyin": "Wǒ xiān xiě yī fèn PRD, zhōuwǔ qián fā gěi dàjiā píngshěn.",
+      "translation": "I'll write a PRD first and send it for review by Friday.",
+      "suggestions": ["我先写一份PRD，週五前发给大家评审。", "我整理成PRD，週五前发出来给大家看。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "评审会是週五下午吗？",
+      "pinyin": "Píngshěn huì shì zhōuwǔ xiàwǔ ma?",
+      "translation": "Is the review meeting Friday afternoon?"
+    },
+    {
+      "speaker": "user",
+      "text": "对，週五下午三点，我发会议邀请。",
+      "pinyin": "Duì, zhōuwǔ xiàwǔ sān diǎn, wǒ fā huìyì yāoqǐng.",
+      "translation": "Yes, Friday 3pm. I'll send the meeting invite.",
+      "suggestions": ["对，週五下午三点，我发会议邀请。", "嗯，週五三点，我会发calendar invite。"]
+    }
+  ]
+}

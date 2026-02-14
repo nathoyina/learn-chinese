@@ -1,0 +1,34 @@
+{
+  "id": "bug-triage",
+  "title": "紧急问题沟通",
+  "category": "work",
+  "situation": "There's a production bug. Users can't log in. You need to coordinate a quick response.",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "线上出bug了，用户登录不了。",
+      "pinyin": "Xiànshàng chū bug le, yònghù dēnglù bù liǎo.",
+      "translation": "There's a bug in production, users can't log in."
+    },
+    {
+      "speaker": "user",
+      "text": "我先拉个会，大家十分钟后上线。",
+      "pinyin": "Wǒ xiān lā ge huì, dàjiā shí fēnzhōng hòu shàngxiàn.",
+      "translation": "Let me set up a quick call, everyone join in ten minutes.",
+      "suggestions": ["我先拉个会，大家十分钟后上线。", "马上拉会，十分钟后一起排查。"]
+    },
+    {
+      "speaker": "partner",
+      "text": "后端说是我们前端的问题。",
+      "pinyin": "Hòu duān shuō shì wǒmen qiánduān de wèntí.",
+      "translation": "Backend says it's a frontend issue."
+    },
+    {
+      "speaker": "user",
+      "text": "我们先一起看日志，确定根因再分工。",
+      "pinyin": "Wǒmen xiān yīqǐ kàn rìzhì, quèdìng gēnyīn zài fēngōng.",
+      "translation": "Let's look at the logs together first, identify root cause, then divide the work.",
+      "suggestions": ["我们先一起看日志，确定根因再分工。", "先查日志定位问题，再分头修。"]
+    }
+  ]
+}
