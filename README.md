@@ -24,6 +24,10 @@ A voice-first web app for practicing conversational Chinese with scripted, reali
 
 **How it works:** Listen to the partner's line (text-to-speech), type your response in Chinese, compare with suggested replies, then advance. Track your streak and practice daily.
 
+## Demo
+
+View public URL here: https://learn-chinese-peach.vercel.app/ 
+
 ## Run Locally
 
 ```bash
